@@ -1,4 +1,4 @@
-const CACHE_NAME = "urljump-cache-v2";
+const CACHE_NAME = "urljump-cache-v6";
 const FILES_TO_CACHE = [
   "/",
   "style.css",

@@ -26,7 +26,7 @@
     <button id="jumpBtn">Jump!</button>
   </div>
 
-  <div id="historyArea" class="hidden">
+  <div id="historyArea">
     <div id="historyHeader">
       <span data-i18n="history">History</span>
       <button id="clearHistoryBtn" data-i18n="clear">Clear</button>
@@ -37,11 +37,12 @@
   <div id="langModal" class="modal hidden">
     <div class="modal-content">
       <span data-i18n="language">Language</span>
-      <button data-lang="en-US">English</button>
-      <button data-lang="zh-CN">中文</button>
+      <div id="langOptions"></div>
       <button id="closeLangModal" data-i18n="close">Close</button>
     </div>
   </div>
+
+  <a id="githubLink" href="https://github.com/trcrsired/urljump" target="_blank" rel="noopener">GitHub</a>
 
   <script src="app.js"></script>
 </body>
