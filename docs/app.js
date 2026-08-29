@@ -229,11 +229,6 @@ function renderHistory() {
       rightDiv.appendChild(pinSpan);
     }
 
-    const timeSpan = document.createElement("span");
-    timeSpan.className = "history-time";
-    timeSpan.textContent = item.time;
-    rightDiv.appendChild(timeSpan);
-
     const moreBtn = document.createElement("button");
     moreBtn.className = "more-btn";
     moreBtn.textContent = "…";
