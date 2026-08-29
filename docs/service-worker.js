@@ -1,10 +1,11 @@
-const CACHE_NAME = "urljump-cache-v8";
+const CACHE_NAME = "urljump-cache-v9";
 const FILES_TO_CACHE = [
   "/",
   "style.css",
   "app.js",
   "manifest.json",
   "logo.webp",
+  "logo-transparent.webp",
 ];
 
 self.addEventListener("install", (event) => {
