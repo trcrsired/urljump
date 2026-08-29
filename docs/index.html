@@ -3,21 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
-
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
   <link id="favicon" rel="icon" href="logo.webp" type="image/webp" />
-
   <title>urljump</title>
 </head>
 <body>
-  <input id="urlInput" type="text" placeholder="Enter URL…" />
-  <button id="jumpBtn">Jump!</button>
+  <div id="topBar">
+    <div id="searchEngines"></div>
+    <div id="topRight">
+      <button id="langBtn" class="iconBtn" title="Language">🌐</button>
+      <button id="historyToggleBtn" class="iconBtn" title="Toggle History">👁</button>
+    </div>
+  </div>
+
+  <img id="logo" src="logo-transparent.webp" alt="urljump" />
+
+  <div id="mainArea">
+    <input id="urlInput" type="text" placeholder="Enter URL or search…" />
+    <button id="jumpBtn">Jump!</button>
+  </div>
+
+  <div id="historyArea" class="hidden">
+    <div id="historyHeader">
+      <span data-i18n="history">History</span>
+      <button id="clearHistoryBtn" data-i18n="clear">Clear</button>
+    </div>
+    <ul id="historyList"></ul>
+  </div>
+
+  <div id="langModal" class="modal hidden">
+    <div class="modal-content">
+      <span data-i18n="language">Language</span>
+      <button data-lang="en-US">English</button>
+      <button data-lang="zh-CN">中文</button>
+      <button id="closeLangModal" data-i18n="close">Close</button>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
 </html>
-
