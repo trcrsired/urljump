@@ -1,0 +1,17 @@
+{
+  "name": "urljump",
+  "short_name": "urljump",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#0078ff",
+  "icons": [
+    {
+      "src": "logo.webp",
+      "sizes": "256x256",
+      "type": "image/webp"
+    }
+  ]
+}
+
