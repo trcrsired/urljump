@@ -9,8 +9,14 @@
   "icons": [
     {
       "src": "logo.webp",
-      "sizes": "256x256",
+      "sizes": "1024x1024",
       "type": "image/webp"
+    },
+    {
+      "src": "logo-transparent.webp",
+      "sizes": "1024x1024",
+      "type": "image/webp",
+      "purpose": "maskable"
     }
   ]
 }
