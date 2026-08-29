@@ -4,6 +4,9 @@ const SEARCH_ENGINES = [
   { id: "bing", name: "Bing", url: "https://www.bing.com/search?q=" },
   { id: "baidu", name: "Baidu", url: "https://www.baidu.com/s?wd=" },
   { id: "duckduckgo", name: "DuckDuckGo", url: "https://duckduckgo.com/?q=" },
+  { id: "yandex", name: "Yandex", url: "https://yandex.com/search/?text=" },
+  { id: "youtube", name: "YouTube", url: "https://www.youtube.com/results?search_query=" },
+  { id: "pornhub", name: "Pornhub", url: "https://www.pornhub.com/video/search?search=" },
 ];
 
 const I18N = {
