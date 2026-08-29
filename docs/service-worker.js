@@ -1,6 +1,6 @@
-const CACHE_NAME = "urljump-cache-v1";
+const CACHE_NAME = "urljump-cache-v1.6";
 const FILES_TO_CACHE = [
-  "index.html",
+  "/",
   "style.css",
   "app.js",
   "manifest.json",
